@@ -6,6 +6,6 @@ on:
 
 jobs:
   build-spec-workflow:
-    uses: HUPO-PSI/mzTab/.github/workflows/ci.yml@master
+    uses: colin-combe/mzTab/.github/workflows/ci.yml@master
   test-examples-workflow:
-    uses: HUPO-PSI/mzTab/.github/workflows/validate.yml@master
+    uses: colin-combe/mzTab/.github/workflows/validate.yml@master
