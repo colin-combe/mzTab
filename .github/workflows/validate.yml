@@ -11,6 +11,7 @@ on:
       - master
     paths:
       - 'examples/2_0-Metabolomics_Release/**'
+  workflow_dispatch:
 jobs:
   validate-examples:
     runs-on: '${{ matrix.os }}'
